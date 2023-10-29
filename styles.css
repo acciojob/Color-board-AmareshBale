@@ -1,20 +1,25 @@
-/*  your css code here. If applicable */
-body {
-    display: flex;
-    height: 100vh;
+/* /*  your css code here. If applicable */
+/* body { */
+/*     display: flex; */
+/*     height: 100vh;
     margin: 0;
-	width:100vw
-}
+	width:100vw; */
+/* } */
 
-.container {
+/* .container{
     width: 800px;
-}
+}*/
+.board{
+	display:flex;
+	flex-wrap:wrap;
+} 
 
 .square {
-    width: 20px;
+    min-width: 20px;
     height: 20px;
     margin: 1px;
     background-color: rgb(29,29,29);
     transition: background-color 1s ease;
     cursor: pointer;
 }
+ */

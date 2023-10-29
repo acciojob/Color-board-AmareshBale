@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         square.addEventListener("mouseleave", () => {
             setTimeout(() => {
-                square.style.backgroundColor = "#ccc";
+                square.style.backgroundColor = "black";
             }, 1000);
         });
     }
